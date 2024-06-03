@@ -1,8 +1,6 @@
 #!/bin/bash
 
-if [ ! -d "$HOME/dotfiles" ]; then
-  git clone https://github.com/johnfking/dotfiles.git "$HOME/dotfiles"
-fi
+git clone https://github.com/johnfking/dotfiles.git "$HOME/dotfiles"
 
 if ! grep -q "source ~/dotfiles/.bashrc" "$HOME/.bashrc"; then
   echo "Appending dotfiles .bashrc to the current .bashrc..."
