@@ -55,3 +55,6 @@ export PS1="\u@\h \w\[\033[32m\]\$(parse_git_branch)\[\033[00m\]$ "
 # Extend path for Code-Server and Set Alias for code
 PATH="/tmp/code-server/bin:$PATH"
 alias code="code-server"
+
+# Sets the default AWS Region for CLI
+export AWS_DEFAULT_REGION=us-east-1
