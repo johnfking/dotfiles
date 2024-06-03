@@ -58,3 +58,6 @@ alias code="code-server"
 
 # Sets the default AWS Region for CLI
 export AWS_DEFAULT_REGION=us-east-1
+
+# Let everyone know we're done
+echo "Completed .bashrc file." 
